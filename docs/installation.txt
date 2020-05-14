@@ -1,0 +1,72 @@
+
+Before following these steps, install JAVA SDK 8 and intellj community version
+In this project we are using Scala 2.11.8
+
+1.INSTALL VIRTUAL BOX
+2.INSTALL VAGRANT
+3.INSTALL CHOCLATEY 
+
+	Click Start and type “powershell“
+	Right-click Windows Powershell and choose “Run as Administrator“
+	Paste the following command into Powershell and press enter.
+	
+	Set-ExecutionPolicy Bypass -Scope Process -Force; `
+	  iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+4.INSTALL OPEN SSH
+	cyg-get openssh 
+5.INSTALL RSYNC 
+	cyg-get rsync
+6.DEFAULT LOCATION OF VM
+	Find the default location for vm
+7.CLONE THE ENVIRONMENT
+	Open Cygdrive
+	go to your folder 
+	Create a new directory 
+		mkdir Boxes
+	clone the git directory
+  	git clone https://github.com/aalkilani/spark-kafka-cassandra-applying-lambda-architecture.git
+8. Navigate to the directory which are vagrant 
+    cd vagrant
+    It would download all the necessary files
+    vagrant up
+9. GET VAGRANT DOWN
+	vagrant halt
+10. SSH to vagrant	
+	vagrant ssh
+	
+		System load:  1.04               Processes:              92
+		Usage of /:   20.4% of 39.34GB   Users logged in:        0
+		Memory usage: 4%                 IP address for eth0:    10.0.2.15
+		Swap usage:   0%                 IP address for docker0: 172.17.0.1
+
+10.LIST THE SERVICES RUNNING IN THE MACHINE
+	docker ps
+11.DIRECTORY FOR HOLDING THE DATA
+	ls /vagrant/
+	
+12. CHECK THE LOCATION FOR VAGRANT DIRECTORY
+	This can be easily done by creating a file and 
+    C:\Boxes\spark-kafka-cassandra-applying-lambda-architecture\vagrant
+13. CREATE A FILE UNDER VAGRANT DIRECTORY
+	touch readme.me
+
+14. INSTALL BDE PIPELINE
+	https://github.com/big-data-europe/app-bde-pipeline
+	
+	git clone https://github.com/big-data-europe/app-bde-pipeline.git
+	cd app-bde-pipeline
+	docker-compose up -d
+	
+15. INSTALL DOCKER COMPOSER
+	sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+	sudo chmod +x /usr/local/bin/docker-compose
+
+16 INSTALLATION FOLDER
+	This would be the home directory ~/app-bde-pipeline
+	
+17.INSTALL SPARK
+    rm docker-compose.yml
+	wget https://github.com/big-data-europe/docker-spark/blob/0933458e415479b2fc00055ac1a596d0cc864029/docker-compose.yml
+	
+	

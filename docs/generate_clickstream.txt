@@ -1,0 +1,32 @@
+1. CREATE PROJECT TEMPLATE
+		CREATE A NEW MAVEN PROJECT
+		CREATE A NEW MODULE
+			ADD FRAMEWORK SUPPORT AND SELECT Scala
+		CREATE A NEW DIRECTORY NAMES AS SCALA
+			SET THIS DIRECTORY AS SOURCE ROOT
+		CREATE A NEW SCALA WORKSHEET 
+			It is a repl environment 
+			Test your code
+
+Note: IF we do not specify framework support to scala then scala packages would not be available			
+ 
+2. CREATE CLICKSTREAM PRODUCER PROJECT
+		create new directory scala--> set it as source directory
+		COPY RESOURCES
+			copy resources to the folder products.csv,referrers.csv and application.conf
+		CREATE PACKAGAGES
+			Create a packages named as clickstream and config
+		CREATE SCALA OBJECTS
+			CONFIG
+				reads the settings
+			CLICKSTREAM
+				code to randomly generate streams
+		RUN LOGPRODUCER
+			We would get the output as shown below
+			1567395352837	Other	add_to_cart		Visitor-2178082	Page-2	California Pizza Kitchen,Sicilian Recipe Pizza
+			1567395354757	Direct	purchase		Visitor-4384363	Page-13	e.l.f.,Smudge Pot- Back to Basics
+			
+		
+	
+		
+		

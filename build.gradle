@@ -1,0 +1,32 @@
+apply plugin: 'scala'
+
+group 'kudupu'
+version 'kp-lambda.1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //scala
+    compile 'org.scala-lang:scala-library:2.11.12'
+
+    //spark
+    compile 'org.apache.spark:spark-core_2.11:2.3.0'
+    compile 'org.apache.spark:spark-sql_2.11:2.3.0'
+
+    //all
+    compile 'com.typesafe:config:1.4.0'
+
+}
+configurations {
+
+    all {
+
+        resolutionStrategy {
+            //force 'com.fasterxml.jackson.core:jackson-core:2.7.2', 'com.fasterxml.jackson.core:jackson-databind:2.7.2', 'com.fasterxml.jackson.core:jackson-annotations:2.7.2'
+        }
+    }
+}
