@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="bi.main" target="1.8" />
+      <module name="bi.test" target="1.8" />
+      <module name="bif.main" target="1.8" />
+      <module name="bif.test" target="1.8" />
+      <module name="k.main" target="1.8" />
+      <module name="k.test" target="1.8" />
+      <module name="kp.main" target="1.8" />
+      <module name="kp.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

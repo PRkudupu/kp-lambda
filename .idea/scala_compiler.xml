@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Gradle 1" modules="dp-ingestion.main,dp-ingestion.test">
+    <profile name="Gradle 1" modules="bi.main,bi.test,bif.main,bif.test,bigdata.main,bigdata.test,dp-ingestion.main,dp-ingestion.test,k.main,k.test,kp.main,kp.test">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <parameters>

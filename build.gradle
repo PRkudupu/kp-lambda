@@ -17,9 +17,10 @@ dependencies {
     compile 'org.apache.spark:spark-core_2.11:2.3.0'
     compile 'org.apache.spark:spark-sql_2.11:2.3.0'
 
-    //all
+    //configuration files for jvm libraries using HOCON files.
     compile 'com.typesafe:config:1.4.0'
-
+    //provide file utils for helper functions
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
 }
 configurations {
 
@@ -30,3 +31,25 @@ configurations {
         }
     }
 }
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'my.project.main',
+        )
+    }
+}
+
+task fatJar(type: Jar) {
+    manifest.from jar.manifest
+    archiveClassifier="shaded"
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    } {
+        zip64 true
+        exclude "META-INF/*.SF"
+        exclude "META-INF/*.DSA"
+        exclude "META-INF/*.RSA"
+    }
+    with jar
+}
+
