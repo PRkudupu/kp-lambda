@@ -25,7 +25,26 @@ SPARK RECIEVER MODEL
 		1 for driver
 		1 for task processing
 		
-	Note: We can increase the parallelism by increasing the receiver inputs
+	Note: 
+	1)We can increase the parallelism by increasing the receiver inputs
+	2)We can combine the results of the 2 receivers using union
+	
+CHECKPOINTING 
+	Can be used in normal spark applications
+	Required in streaming applications
+	
+	TWO TYPES OF CHECKPOINTING
+		1)METADATA CHECKPOINTING (Driver recovery)
+			Configuration
+			Dstream operations
+			Incomplete batches
+			Note: Driver failures causes losing executors
+		
+		2) DATA CHECKPOINTING (Stateful Transformation)
+			Stateful transformations using data across batches
+
+		
+			
 
 
 	
