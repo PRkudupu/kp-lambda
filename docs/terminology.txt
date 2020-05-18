@@ -1,0 +1,38 @@
+WINDOW
+	Create new Dstream computed by applying window parameters to the old stream.
+	For example, you want to POST all the active users from the last five seconds to a web service, but you want to update the results every second.
+	These operations describe two parameters – windowLength and slideInterval.
+	REDUCE LAST 30 SECONDS OF DATA FOR EVERY 10 SECONDS
+		val windowedWordCounts = pairs.reduceByKeyAndWindow((a:Int,b:Int) => (a + b), Seconds(30), Seconds(10))
+
+TRANSFORM(func)
+	Allows to drop down to RDD and operate against the rdd api
+	Higher order fuction like map
+	We can transform to an RDD of any other type
+	
+FOR EACH RDD
+	Similar to transform
+	Function returns a untit(void)
+	USE CASE 
+		saving data to cassandra
+
+SPARK RECIEVER MODEL
+	Object that consumes a task and is responsible for receiving data from and storing it in spark memory for processing
+	Occupies a task for itself essentially eating up cpu core
+	If the data is more, we would want to free that memory for another task
+	TYPICAL ALLOCATION OF CORES
+		1 for receiver
+		1 for driver
+		1 for task processing
+		
+	Note: We can increase the parallelism by increasing the receiver inputs
+
+
+	
+		
+		
+	
+	
+	
+	
+	

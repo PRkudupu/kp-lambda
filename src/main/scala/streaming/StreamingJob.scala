@@ -33,12 +33,18 @@ object StreamingJob {
          .option("delimiter","\t")
          .csv(sourceFile)
 
+    //function to change the timestamp
     def convertTime=(s:Long)=>{
       s/MS_IN_HOUR * MS_IN_HOUR
     }
+
+    //Register the udf
     spark.udf.register("convertTimeUDF",convertTime)
 
+    //create a temporary view
     inputDF.createOrReplaceTempView("activity")
+
+    //Use sql to group by product, timestamp_hour
     val activityByProduct = spark.sql("""SELECT
                                             product,
                                             convertTimeUDF(timestamp_hour) timestamp_hour,
