@@ -6,7 +6,7 @@ import config.Settings
 
 import scala.util.Random
 
-object LogProducer extends App {
+object LogProducerBatch extends App {
   // reference to webLog config
   val wlc = Settings.WebLogGen
 
