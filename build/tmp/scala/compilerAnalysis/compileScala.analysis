@@ -32,7 +32,7 @@ name hashing:
 1 items
 0 -> true
 products:
-29 items
+30 items
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\BatchJob$$anonfun$1.class
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\BatchJob$$anonfun$2.class
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\BatchJob$$typecreator5$1.class
@@ -58,12 +58,13 @@ C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala ->
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\domain\package$Activity$.class
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\domain\package$Activity.class
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\domain\package.class
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob$$typecreator1$1.class
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob$.class
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob.class
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\utils\SparkUtils$.class
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\utils\SparkUtils.class
 binary dependencies:
-23 items
+25 items
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-catalyst_2.11\2.3.0\89b1654b97bfe35e466e7511fd5b11033c2bbbd9\spark-catalyst_2.11-2.3.0.jar
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-core_2.11\2.3.0\9e2bc021bd38b06da2e0a56fdd9d13935503d94\spark-core_2.11-2.3.0.jar
@@ -81,9 +82,11 @@ C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\config\Settings.scala -
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-catalyst_2.11\2.3.0\89b1654b97bfe35e466e7511fd5b11033c2bbbd9\spark-catalyst_2.11-2.3.0.jar
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-core_2.11\2.3.0\9e2bc021bd38b06da2e0a56fdd9d13935503d94\spark-core_2.11-2.3.0.jar
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-sql_2.11\2.3.0\e19282137294c8a889917c05006931fbcd8d66d2\spark-sql_2.11-2.3.0.jar
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.8\b74530deeba742ab4f3134de0c2da0edc49ca361\scala-reflect-2.11.8.jar
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-sql_2.11\2.3.0\e19282137294c8a889917c05006931fbcd8d66d2\spark-sql_2.11-2.3.0.jar
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
@@ -96,10 +99,11 @@ public inherited source dependencies:
 public inherited external dependencies:
 0 items
 member reference internal dependencies:
-3 items
+4 items
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerBatch.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\config\Settings.scala
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerStreaming.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\config\Settings.scala
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -107,7 +111,7 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-29 items
+30 items
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> batch.clickstream.BatchJob
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> batch.clickstream.BatchJob$
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> batch.clickstream.BatchJob$$anonfun$1
@@ -135,10 +139,11 @@ C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala ->
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> domain.package$Activity$
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> batch.clickstream.StreamingJob
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> batch.clickstream.StreamingJob$
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> batch.clickstream.StreamingJob$$typecreator1$1
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> utils.SparkUtils
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> utils.SparkUtils$
 used names:
-483 items
+536 items
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> $m
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> $m$untyped
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> $typecreator5
@@ -570,39 +575,92 @@ C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala ->
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> typedProductIterator
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> visitor
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> ||
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> $m
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> $m$untyped
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> $typecreator1
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> $u
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> <init>
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> ?0
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Activity
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Any
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> AnyRef
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Array
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Builder
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Class
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> ClassLoader
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> ClassSymbol
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> DataFrame
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> DataStreamReader
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> DataType
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Internal
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> JavaUniverse
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> List
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Mirror
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> ModuleSymbol
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Nil
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Nothing
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Object
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Predef
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> ReificationSupportApi
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> RootClass
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> ScalaReflection
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Schema
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> SingleType
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Singleton
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> SparkContext
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> SparkSession
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> StreamingJob
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> String
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> StructType
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Symbol
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> T
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> T0
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Type
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> TypeCreator
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> TypeRef
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> TypeTag
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> U
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Unit
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> Universe
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> apache
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> appName
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> apply
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> asInstanceOf
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> batch
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> builder
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> catalyst
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> clickstream
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> dataType
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> domain
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> getClass
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> getClassLoader
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> getOrCreate
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> immutable
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> inputDF
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> internal
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> load
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> master
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> materializeTypeTag
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> org
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> package
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> println
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> readStream
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> reificationSupport
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> runtimeMirror
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> scala
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> schema
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> schemaFor
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> setLogLevel
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> sourceFile
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> spark
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> sparkContext
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> sql
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> staticClass
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> staticModule
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> staticPackage
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> thisPrefix
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> types
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> universe
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> <init>
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> Any
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> AnyRef
@@ -623,14 +681,15 @@ C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala 
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> sql
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> utils
 product stamps:
-29 items
+30 items
 C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\BatchJob$$anonfun$1.class -> lastModified(1589784012517)
 C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\BatchJob$$anonfun$2.class -> lastModified(1589784012528)
 C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\BatchJob$$typecreator5$1.class -> lastModified(1589784012540)
 C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\BatchJob$.class -> lastModified(1589784012504)
 C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\BatchJob.class -> lastModified(1589784012398)
-C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob$.class -> lastModified(1589783612900)
-C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob.class -> lastModified(1589783612894)
+C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob$$typecreator1$1.class -> lastModified(1589784727552)
+C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob$.class -> lastModified(1589784727542)
+C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob.class -> lastModified(1589784727466)
 C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerBatch$$anonfun$1.class -> lastModified(1589783612944)
 C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerBatch$$anonfun$2.class -> lastModified(1589783612950)
 C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerBatch$$anonfun$3.class -> lastModified(1589783612956)
@@ -660,7 +719,7 @@ C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducer
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerStreaming.scala -> hash(e69543002e7801dd8aecddcb88c42c42fed6fe0d)
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\config\Settings.scala -> hash(9de50fb3d3cc109f58bacc18cc23f4b3468e0869)
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> hash(2a251d7111584c43058dd354942849251c3bd40f)
-C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> hash(64582bfcf7f680e57db6cba525f99a1ffd88d8aa)
+C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> hash(cdb66cbc10a0c341a8fdb62f6d996dcac4f1f218)
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> hash(f98a204c7e94a515ca51a4e193cd706b3205e584)
 binary stamps:
 8 items
@@ -677,10 +736,10 @@ class names:
 C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar -> java.lang.Object
 C:\Users\Prath\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.4.0\a8b341fe81552834edc231193afd6f56a96f0eff\config-1.4.0.jar -> com.typesafe.config.ConfigFactory
 C:\Users\Prath\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.6\815893df5f31da2ece4040fe0a12fd44b577afaf\commons-io-2.6.jar -> org.apache.commons.io.FileUtils
-C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-catalyst_2.11\2.3.0\89b1654b97bfe35e466e7511fd5b11033c2bbbd9\spark-catalyst_2.11-2.3.0.jar -> org.apache.spark.sql.Encoder
-C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-core_2.11\2.3.0\9e2bc021bd38b06da2e0a56fdd9d13935503d94\spark-core_2.11-2.3.0.jar -> org.apache.spark.rdd.RDD
-C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-sql_2.11\2.3.0\e19282137294c8a889917c05006931fbcd8d66d2\spark-sql_2.11-2.3.0.jar -> org.apache.spark.sql.SparkSession$
-C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar -> scala.runtime.ScalaRunTime$
+C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-catalyst_2.11\2.3.0\89b1654b97bfe35e466e7511fd5b11033c2bbbd9\spark-catalyst_2.11-2.3.0.jar -> org.apache.spark.sql.types.StructType$
+C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-core_2.11\2.3.0\9e2bc021bd38b06da2e0a56fdd9d13935503d94\spark-core_2.11-2.3.0.jar -> org.apache.spark.SparkContext
+C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-sql_2.11\2.3.0\e19282137294c8a889917c05006931fbcd8d66d2\spark-sql_2.11-2.3.0.jar -> org.apache.spark.sql.package$
+C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar -> scala.collection.immutable.Nil$
 C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.8\b74530deeba742ab4f3134de0c2da0edc49ca361\scala-reflect-2.11.8.jar -> scala.reflect.api.TypeCreator
 internal apis:
 7 items
@@ -695,7 +754,7 @@ rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBo
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> 
 rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw+rxoEgABc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAzc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwxj9NgHQABm5vdGlmeXNxAH4ADKLodMN0AAppbnB1dFByb3Bzc3EAfgAMC705wHQAB3VuYXBwbHlzcQB+AAySkmQndAAHY3VycmllZHNxAH4ADFZCu0R0AAdwYWNrYWdlc3EAfgAMXrisanQABHdhaXRzcQB+AAwyLkntdAAOY29weSRkZWZhdWx0JDJzcQB+AAxoYXVZdAANJGFzSW5zdGFuY2VPZnNxAH4ADA1K7nR0AA5jb3B5JGRlZmF1bHQkNXNxAH4ADMfaM2F0AA9hcHBseSRkZWZhdWx0JDhzcQB+AAw8DgccdAAMcHJvZHVjdEFyaXR5c3EAfgAMHX1S6XQABmVxdWFsc3NxAH4ADMcIjbB0AAxhc0luc3RhbmNlT2ZzcQB+AAxYIEjydAAEcGFnZXNxAH4ADBpj/kl0AAxzeW5jaHJvbml6ZWRzcQB+AAzE4sIMdAANJGlzSW5zdGFuY2VPZnNxAH4ADBeL5yt0AA5jb3B5JGRlZmF1bHQkOHNxAH4ADEhQ5cR0AAZ0dXBsZWRzcQB+AAwfXIx8dAAIY2FuRXF1YWxzcQB+AAyB1I66dAAOY29weSRkZWZhdWx0JDRzcQB+AAzYt6yJdAANcHJvZHVjdFByZWZpeHNxAH4ADEGcN8Z0AAlub3RpZnlBbGxzcQB+AAyzzgntdAAIQWN0aXZpdHlzcQB+AAxWxaiodAAMaXNJbnN0YW5jZU9mc3EAfgAMZGMvgXQAB3Zpc2l0b3JzcQB+AAxW+4DBdAAQPGluaXQ+JGRlZmF1bHQkOHNxAH4ADLZcwQp0AAY8aW5pdD5zcQB+AAw5D9OZdAAFYXBwbHlzcQB+AAy7/S1sdAACPT1zcQB+AAxv7STadAAFY2xvbmVzcQB+AAzYkr+adAAOY29weSRkZWZhdWx0JDdzcQB+AAyhV9LudAAIcHJldlBhZ2VzcQB+AAzqcsBtdAAGJGluaXQkc3EAfgAMxGnndnQADmNvcHkkZGVmYXVsdCQzc3EAfgAM28o2UnQABGNvcHlzcQB+AAyTOflZdAAIdG9TdHJpbmdzcQB+AAyfchQwdAACIT1zcQB+AAxitboydAAIcmVmZXJyZXJzcQB+AAwsWzrxdAAIZ2V0Q2xhc3NzcQB+AAyV+gggdAAOY29weSRkZWZhdWx0JDFzcQB+AAwbHAhVdAAOY29weSRkZWZhdWx0JDZzcQB+AAx3WgysdAACbmVzcQB+AAyDLPS7dAAOdGltZXN0YW1wX2hvdXJzcQB+AAybtZhgdAAGYWN0aW9uc3EAfgAMl+WAiHQAAmVxc3EAfgAMlOmDoHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADODFY2p0AAIjI3NxAH4ADDHeVER0AAhmaW5hbGl6ZXNxAH4ADFjlTHV0AA5wcm9kdWN0RWxlbWVudHNxAH4ADDXcUEJ0AAhoYXNoQ29kZXNxAH4ADMTmHvt0AAdwcm9kdWN0c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AfXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQADmRvbWFpbi5wYWNrYWdldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCVc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AH1MAAlpbmhlcml0ZWRxAH4AfUwAB3BhcmVudHNxAH4AfXhxAH4AmnNxAH4AlXVxAH4AeAAAAABzcQB+AJV1cQB+AHgAAAAAc3EAfgCVdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCZdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCZc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCydAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCzc3EAfgCmdAADQW55c3EAfgCqc3EAfgCtdXEAfgCwAAAAAnNxAH4AsnQABXNjYWxhcQB+ALl1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZkb21haW5zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAXImfKqOdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQkM6XFVzZXJzXFByYXRoXERlc2t0b3BcUHJvamVjdHNca3AtbGFtYmRhXGJ1aWxkXGNsYXNzZXNcc2NhbGFcbWFpbnQAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFColHXERWExDBY3TVJQoSSUcO9QP
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw/ocrZwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwTN8fCXQABm5vdGlmeXNxAH4ADMb6YZl0AAxTdHJlYW1pbmdKb2JzcQB+AAxVGGhhdAAEd2FpdHNxAH4ADDOMxbB0AA0kYXNJbnN0YW5jZU9mc3EAfgAMyxLzVnQABmVxdWFsc3NxAH4ADJU14fZ0AAxhc0luc3RhbmNlT2ZzcQB+AAzM9PCcdAAMc3luY2hyb25pemVkc3EAfgAMK9wD13QADSRpc0luc3RhbmNlT2ZzcQB+AAz19xZqdAAEbWFpbnNxAH4ADNEcN+J0AAlub3RpZnlBbGxzcQB+AAyyyEzYdAAMaXNJbnN0YW5jZU9mc3EAfgAMkyH5wnQAAj09c3EAfgAMucZwJnQABWNsb25lc3EAfgAMNRUVc3QACHRvU3RyaW5nc3EAfgAMMC+Pp3QAAiE9c3EAfgAMaSgX0nQACGdldENsYXNzc3EAfgAMelgRo3QAAm5lc3EAfgAMuP7TUnQAAmVxc3EAfgAMnAUgsXQAAiMjc3EAfgAMygIlE3QACGZpbmFsaXplc3EAfgAMsNsyp3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAHmJhdGNoLmNsaWNrc3RyZWFtLlN0cmVhbWluZ0pvYnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AF5zcQB+AFl1cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB91cQB+AFEAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHl1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBmeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBUdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBtWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBdc3EAfgBsdAAFQXJyYXlxAH4AcnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBsdAAGU3RyaW5nc3EAfgBwc3EAfgBzdXEAfgB2AAAAA3NxAH4AeHQABGphdmFzcQB+AHh0AARsYW5ncQB+AH1zcQB+AFl1cQB+ADwAAAAAc3EAfgBZdXEAfgCRAAAAAnNxAH4AbHQABk9iamVjdHEAfgCVc3EAfgBsdAADQW55cQB+AHJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAViYXRjaHNxAH4ApnQAEWJhdGNoLmNsaWNrc3RyZWFtc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFyJnyqjnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEJDOlxVc2Vyc1xQcmF0aFxEZXNrdG9wXFByb2plY3RzXGtwLWxhbWJkYVxidWlsZFxjbGFzc2VzXHNjYWxhXG1haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRkWCv89/aA5X22y6Ul+Zof/YjYqg==
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw/ocrZwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwTN8fCXQABm5vdGlmeXNxAH4ADMb6YZl0AAxTdHJlYW1pbmdKb2JzcQB+AAxVGGhhdAAEd2FpdHNxAH4ADDOMxbB0AA0kYXNJbnN0YW5jZU9mc3EAfgAMyxLzVnQABmVxdWFsc3NxAH4ADJU14fZ0AAxhc0luc3RhbmNlT2ZzcQB+AAzM9PCcdAAMc3luY2hyb25pemVkc3EAfgAMK9wD13QADSRpc0luc3RhbmNlT2ZzcQB+AAz19xZqdAAEbWFpbnNxAH4ADNEcN+J0AAlub3RpZnlBbGxzcQB+AAyyyEzYdAAMaXNJbnN0YW5jZU9mc3EAfgAMkyH5wnQAAj09c3EAfgAMucZwJnQABWNsb25lc3EAfgAMNRUVc3QACHRvU3RyaW5nc3EAfgAMMC+Pp3QAAiE9c3EAfgAMaSgX0nQACGdldENsYXNzc3EAfgAMelgRo3QAAm5lc3EAfgAMuP7TUnQAAmVxc3EAfgAMnAUgsXQAAiMjc3EAfgAMygIlE3QACGZpbmFsaXplc3EAfgAMsNsyp3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAHmJhdGNoLmNsaWNrc3RyZWFtLlN0cmVhbWluZ0pvYnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AF5zcQB+AFl1cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB91cQB+AFEAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHl1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBmeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBUdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBtWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBdc3EAfgBsdAAFQXJyYXlxAH4AcnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBsdAAGU3RyaW5nc3EAfgBwc3EAfgBzdXEAfgB2AAAAA3NxAH4AeHQABGphdmFzcQB+AHh0AARsYW5ncQB+AH1zcQB+AFl1cQB+ADwAAAAAc3EAfgBZdXEAfgCRAAAAAnNxAH4AbHQABk9iamVjdHEAfgCVc3EAfgBsdAADQW55cQB+AHJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAViYXRjaHNxAH4ApnQAEWJhdGNoLmNsaWNrc3RyZWFtc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFyJo3CJnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEJDOlxVc2Vyc1xQcmF0aFxEZXNrdG9wXFByb2plY3RzXGtwLWxhbWJkYVxidWlsZFxjbGFzc2VzXHNjYWxhXG1haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTNtmy8EKDDQaj9ti9tmW3KxPHyGA==
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> 
 rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw4g3cfAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwziQKsXQABm5vdGlmeXNxAH4ADMtYhFF0AAR3YWl0c3EAfgAM7S+a8XQADSRhc0luc3RhbmNlT2ZzcQB+AAy3/Pt5dAAGZXF1YWxzc3EAfgAMfyjFpHQADGFzSW5zdGFuY2VPZnNxAH4ADLoLWax0AAxzeW5jaHJvbml6ZWRzcQB+AAwznaZMdAANJGlzSW5zdGFuY2VPZnNxAH4ADH+29aB0AAlub3RpZnlBbGxzcQB+AAzaf72+dAAMaXNJbnN0YW5jZU9mc3EAfgAMJMA913QAAj09c3EAfgAMsuWBGnQABWNsb25lc3EAfgAM+hUWBHQAD2dldFNwYXJrU2Vzc2lvbnNxAH4ADFfUqkx0AAh0b1N0cmluZ3NxAH4ADCuTfit0AAIhPXNxAH4ADK6Lkqx0AAhnZXRDbGFzc3NxAH4ADMJzQPF0AAJuZXNxAH4ADIQ8ERJ0AAJlcXNxAH4ADNhTc7p0AAIjI3NxAH4ADKmunnx0AAhmaW5hbGl6ZXNxAH4ADPiGqg10AAhoYXNoQ29kZXNxAH4ADLw6cFh0AApTcGFya1V0aWxzc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAEHV0aWxzLlNwYXJrVXRpbHN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFlzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQUwACWluaGVyaXRlZHEAfgBBTAAHcGFyZW50c3EAfgBBeHEAfgBec3EAfgBZdXEAfgA8AAAAAHNxAH4AWXVxAH4APAAAAABzcQB+AFl1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF10AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AHZ0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHdzcQB+AGp0AANBbnlzcQB+AG5zcQB+AHF1cQB+AHQAAAACc3EAfgB2dAAFc2NhbGFxAH4AfXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABXV0aWxzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFyJnyqjnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEJDOlxVc2Vyc1xQcmF0aFxEZXNrdG9wXFByb2plY3RzXGtwLWxhbWJkYVxidWlsZFxjbGFzc2VzXHNjYWxhXG1haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABT5iiBMfpSlFcpRpOGTzXBrMgXlhA==
 external apis:
@@ -717,9 +776,11 @@ AAAAAAAAAAA=
 C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> 
 AAAAAAAAAAA=
 compilations:
-5 items
+7 items
 0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABciZo29l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQkM6XFVzZXJzXFByYXRoXERlc2t0b3BcUHJvamVjdHNca3AtbGFtYmRhXGJ1aWxkXGNsYXNzZXNcc2NhbGFcbWFpbnQAAS8=
 1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABciZ1qMh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQkM6XFVzZXJzXFByYXRoXERlc2t0b3BcUHJvamVjdHNca3AtbGFtYmRhXGJ1aWxkXGNsYXNzZXNcc2NhbGFcbWFpbnQAAS8=
 2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABciZ7GbJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQkM6XFVzZXJzXFByYXRoXERlc2t0b3BcUHJvamVjdHNca3AtbGFtYmRhXGJ1aWxkXGNsYXNzZXNcc2NhbGFcbWFpbnQAAS8=
 3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABciZ8qo51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQkM6XFVzZXJzXFByYXRoXERlc2t0b3BcUHJvamVjdHNca3AtbGFtYmRhXGJ1aWxkXGNsYXNzZXNcc2NhbGFcbWFpbnQAAS8=
 4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABciaCzEB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQkM6XFVzZXJzXFByYXRoXERlc2t0b3BcUHJvamVjdHNca3AtbGFtYmRhXGJ1aWxkXGNsYXNzZXNcc2NhbGFcbWFpbnQAAS8=
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABciaH0HB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQkM6XFVzZXJzXFByYXRoXERlc2t0b3BcUHJvamVjdHNca3AtbGFtYmRhXGJ1aWxkXGNsYXNzZXNcc2NhbGFcbWFpbnQAAS8=
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABciaNwiZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQkM6XFVzZXJzXFByYXRoXERlc2t0b3BcUHJvamVjdHNca3AtbGFtYmRhXGJ1aWxkXGNsYXNzZXNcc2NhbGFcbWFpbnQAAS8=
