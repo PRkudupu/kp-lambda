@@ -8,4 +8,12 @@ package object domain {
                       product:String,
                       inputProps:Map[String,String]=Map()
                      )
+  case class ActivityStreams(timestamp_hour:Long,
+                      referrer:String,
+                      action:String,
+                      prevPage:String,
+                      visitor:String,
+                      page:String,
+                      product:String
+                     )
 }
