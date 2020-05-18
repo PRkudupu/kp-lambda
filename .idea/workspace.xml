@@ -8,15 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$typecreator1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$typecreator1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/domain/package$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/domain/package$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/domain/package$Activity$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/domain/package$Activity$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/domain/package.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/domain/package.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Stream_job.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Stream_job.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/domain/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/domain/package.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/streaming/StreamingJob.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/streaming/StreamingJob.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +199,7 @@
       <workItem from="1589489822657" duration="949000" />
       <workItem from="1589603243892" duration="7249000" />
       <workItem from="1589696023706" duration="2114000" />
-      <workItem from="1589781452458" duration="5564000" />
+      <workItem from="1589781452458" duration="9206000" />
     </task>
     <servers />
   </component>
@@ -237,26 +231,26 @@
       <screen x="-922" y="1080" width="1536" height="832" />
     </state>
     <state x="-185" y="1356" key="FileChooserDialogImpl/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-922.1080.1536.832" timestamp="1589239048636" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1589786602766">
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1589789426760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.bottom/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589483802437" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589786602766" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1589786602766">
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589789426760" />
+    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1589789426760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.center/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589483802437" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589786602766" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1589786602765">
+    <state width="1877" height="269" key="GridCell.Tab.0.center/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589789426760" />
+    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1589789426760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.left/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589483802436" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589786602765" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1589786602766">
+    <state width="1877" height="269" key="GridCell.Tab.0.left/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589789426760" />
+    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1589789426760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.right/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589483802437" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589786602766" />
+    <state width="1877" height="269" key="GridCell.Tab.0.right/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589789426760" />
     <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1589487721171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

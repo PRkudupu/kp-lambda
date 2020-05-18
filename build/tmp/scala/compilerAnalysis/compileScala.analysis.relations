@@ -26,6 +26,7 @@ products:
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\domain\package$ActivityStreams$.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\domain\package$ActivityStreams.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\domain\package.class
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob$$anonfun$convertTime$1$1.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob$$typecreator1$1.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob$.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob.class
@@ -93,6 +94,7 @@ class names:
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> domain.package$ActivityStreams$
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> batch.clickstream.StreamingJob
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> batch.clickstream.StreamingJob$
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> batch.clickstream.StreamingJob$$anonfun$convertTime$1$1
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> batch.clickstream.StreamingJob$$typecreator1$1
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> utils.SparkUtils
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> utils.SparkUtils$
