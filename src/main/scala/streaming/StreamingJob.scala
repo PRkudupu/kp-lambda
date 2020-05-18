@@ -1,6 +1,6 @@
 package batch
 package clickstream
-import domain.ActivityStreams
+import domain.{ActivityByProduct, ActivityStreams}
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.catalyst.ScalaReflection
 import org.apache.spark.sql.streaming.Trigger
@@ -54,8 +54,17 @@ object StreamingJob {
                                             from activity
                                             group by product, timestamp_hour """)
 
-    //Write
-    activityByProduct.writeStream
+    import spark.implicits._
+
+    //Create key value Key is the combination of product an timestamp hour
+    val activityByProductMap= activityByProduct
+            .map { r =>
+              ((r.getString(0), r.getLong(1)),
+                ActivityByProduct(r.getString(0), r.getLong(1), r.getLong(2), r.getLong(3), r.getLong(4))
+              )
+            }
+    //Write to the console
+    activityByProductMap.writeStream
       .outputMode("complete")
       .format("console")
       .option("truncate","false")
