@@ -8,7 +8,7 @@ import org.apache.commons.io.FileUtils
 import scala.util.Random
 
 
-object LogProducer extends App {
+object LogProducer_streaming extends App {
   // WebLog config
   val wlc = Settings.WebLogGen
 
