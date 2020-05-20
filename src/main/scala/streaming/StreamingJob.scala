@@ -6,6 +6,7 @@ import org.apache.spark.sql.catalyst.ScalaReflection
 import org.apache.spark.sql.streaming.Trigger
 import org.apache.spark.sql.types.StructType
 
+
 object StreamingJob {
   def main(args: Array[String]): Unit = {
     //location for data source
@@ -44,6 +45,8 @@ object StreamingJob {
     //create a temporary view
     inputDF.createOrReplaceTempView("activity")
 
+
+
     //Use sql to group by product, timestamp_hour
     val activityByProduct = spark.sql("""SELECT
                                             product,
@@ -63,6 +66,8 @@ object StreamingJob {
                 ActivityByProduct(r.getString(0), r.getLong(1), r.getLong(2), r.getLong(3), r.getLong(4))
               )
             }
+    //include state by using updatestatebykey
+
     //Write to the console
     activityByProductMap.writeStream
       .outputMode("complete")

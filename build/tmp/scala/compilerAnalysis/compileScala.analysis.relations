@@ -10,6 +10,13 @@ products:
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerBatch.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerBatch$.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerBatch.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerBatch$delayedInit$body.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerBatch.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerBatch.class
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerKafkaProducer$$anonfun$1$$anonfun$apply$mcVI$sp$1.class
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerKafkaProducer$$anonfun$1.class
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerKafkaProducer$$anonfun$2.class
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerKafkaProducer$$anonfun$3.class
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerKafkaProducer$.class
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerKafkaProducer$delayedInit$body.class
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerKafkaProducer.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerStreaming.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerStreaming$$anonfun$1$$anonfun$apply$mcVI$sp$1.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerStreaming.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerStreaming$$anonfun$1.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerStreaming.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\clickstream\LogProducerStreaming$$anonfun$2.class
@@ -45,6 +52,9 @@ binary dependencies:
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.8\b74530deeba742ab4f3134de0c2da0edc49ca361\scala-reflect-2.11.8.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerBatch.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerBatch.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.kafka\kafka-clients\0.8.2.1\9ef741135d2e869a022c66de65c1c08adc375077\kafka-clients-0.8.2.1.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerStreaming.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerStreaming.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.6\815893df5f31da2ece4040fe0a12fd44b577afaf\commons-io-2.6.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerStreaming.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
@@ -65,6 +75,7 @@ binary dependencies:
 source dependencies:
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerBatch.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\config\Settings.scala
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\config\Settings.scala
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerStreaming.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\config\Settings.scala
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala
 external dependencies:
@@ -80,6 +91,13 @@ class names:
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerBatch.scala -> clickstream.LogProducerBatch$$anonfun$2
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerBatch.scala -> clickstream.LogProducerBatch$$anonfun$3
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerBatch.scala -> clickstream.LogProducerBatch$delayedInit$body
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> clickstream.LogProducerKafkaProducer
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> clickstream.LogProducerKafkaProducer$
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> clickstream.LogProducerKafkaProducer$$anonfun$1
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> clickstream.LogProducerKafkaProducer$$anonfun$1$$anonfun$apply$mcVI$sp$1
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> clickstream.LogProducerKafkaProducer$$anonfun$2
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> clickstream.LogProducerKafkaProducer$$anonfun$3
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> clickstream.LogProducerKafkaProducer$delayedInit$body
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerStreaming.scala -> clickstream.LogProducerStreaming
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerStreaming.scala -> clickstream.LogProducerStreaming$
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerStreaming.scala -> clickstream.LogProducerStreaming$$anonfun$1
