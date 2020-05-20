@@ -2,40 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="522895c8-e6d4-4af1-94f2-65e0804b2aa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/clickstream/LogProducerKafkaProducer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/clickstream/LogProducerKafkaConsumer.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$anonfun$convertTime$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$anonfun$convertTime$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$typecreator1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$typecreator1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$typecreator5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$typecreator5$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$$anonfun$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$$anonfun$1$$anonfun$apply$mcVI$sp$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/config/Settings$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/config/Settings$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/config/Settings$WebLogGen$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/config/Settings$WebLogGen$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/config/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/config/Settings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/bigdata-kp-lambda.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/bigdata-kp-lambda.1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Terminology.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Terminology.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/~$ream_job.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/~$ream_job.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/~$rminology.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/~WRL1288.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/clickstream/LogProducerStreaming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clickstream/LogProducerStreaming.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/config/Settings.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/config/Settings.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/streaming/StreamingJob.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/streaming/StreamingJob.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +194,7 @@
       <workItem from="1589696023706" duration="2114000" />
       <workItem from="1589781452458" duration="10119000" />
       <workItem from="1589825738194" duration="5690000" />
-      <workItem from="1589930408577" duration="9399000" />
+      <workItem from="1589930408577" duration="14299000" />
     </task>
     <servers />
   </component>
@@ -241,10 +210,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="677" y="178" key="#LogProducer/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589614130034" />
-    <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589960129310">
+    <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589965177170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589960129310" />
+    <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589965177170" />
     <state x="690" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589458354404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

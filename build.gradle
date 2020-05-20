@@ -23,6 +23,7 @@ dependencies {
     compile group: 'commons-io', name: 'commons-io', version: '2.6'
     compile group: 'org.apache.kafka', name: 'kafka-clients', version: '0.8.2.1'
     compile 'org.apache.kafka:kafka_2.11:0.8.2.1'
+    compile 'org.apache.spark:spark-streaming-kafka_2.11:1.6.2'
 }
 configurations {
 
