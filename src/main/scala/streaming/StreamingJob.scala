@@ -45,8 +45,6 @@ object StreamingJob {
     //create a temporary view
     inputDF.createOrReplaceTempView("activity")
 
-
-
     //Use sql to group by product, timestamp_hour
     val activityByProduct = spark.sql("""SELECT
                                             product,

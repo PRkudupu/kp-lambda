@@ -17,7 +17,7 @@ object BatchJob {
 
     //set spark log level to only error
     spark.sparkContext.setLogLevel("ERROR")
-
+    println(spark.version)
     // For implicit conversions from RDDs to DataFrames
     import spark.implicits._
     import org.apache.spark.sql.functions._

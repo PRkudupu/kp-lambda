@@ -43,25 +43,7 @@ CHECKPOINTING
 		2) DATA CHECKPOINTING (Stateful Transformation)
 			Stateful transformations using data across batches
 
-ENCODER
-	Fundamental concept in the serialization and deserialization 
-	Spark SQL 2.0 uses the Serde framework for IO to make it effecient time- and space-wise
-	Encoders are integral (and internal) part of any Dataset[T] (of records of type T) with a Encoder[T] that is used to serialize and deserialize the records of this dataset.
-	Encoders are modelled in Spark SQL 2.0 as Encoder[T] trait.
-	Encoders know the schema of the records. This is how they offer significantly faster serialization and deserialization (comparing to the default Java or Kryo serializers).
-	trait Encoder[T] extends Serializable {
-	  def schema: StructType
-	  def clsTag: ClassTag[T]
-	}
 
-	case class Person(id: Long, name: String)
-
-	import org.apache.spark.sql.Encoders
-
-	scala> val personEncoder = Encoders.product[Person]
-	personEncoder: org.apache.spark.sql.Encoder[Person] = class[id[0]: bigint, name[0]: string]
-
-	
 			
 
 

@@ -41,19 +41,22 @@ products:
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob$$typecreator5$1.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob$.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\batch\clickstream\StreamingJob.class
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingKafkaJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\streaming\StreamingKafkaJob$$anonfun$main$1.class
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingKafkaJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\streaming\StreamingKafkaJob$.class
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingKafkaJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\streaming\StreamingKafkaJob.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\utils\SparkUtils$.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\utils\SparkUtils.class
 binary dependencies:
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
-   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-catalyst_2.11\2.3.0\89b1654b97bfe35e466e7511fd5b11033c2bbbd9\spark-catalyst_2.11-2.3.0.jar
-   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-core_2.11\2.3.0\9e2bc021bd38b06da2e0a56fdd9d13935503d94\spark-core_2.11-2.3.0.jar
-   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-sql_2.11\2.3.0\e19282137294c8a889917c05006931fbcd8d66d2\spark-sql_2.11-2.3.0.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-catalyst_2.11\2.4.5\1f05212e4214d64a4810488f0b74b2bd86fc1245\spark-catalyst_2.11-2.4.5.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-core_2.11\2.4.5\8f658b9b71ad2ea211fa09296ae88645109ea8d8\spark-core_2.11-2.4.5.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-sql_2.11\2.4.5\f5cb7af2983ff36d629c37f19ea30db640714ec2\spark-sql_2.11-2.4.5.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
-   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.8\b74530deeba742ab4f3134de0c2da0edc49ca361\scala-reflect-2.11.8.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.12\2bb23c13c527566d9828107ca4108be2a2c06f01\scala-reflect-2.11.12.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerBatch.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerBatch.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
-   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.kafka\kafka-clients\0.8.2.1\9ef741135d2e869a022c66de65c1c08adc375077\kafka-clients-0.8.2.1.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.kafka\kafka-clients\0.10.0.1\36ebf4044d0e546bf74c95629d736ca63320a323\kafka-clients-0.10.0.1.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerKafkaProducer.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerStreaming.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\clickstream\LogProducerStreaming.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.6\815893df5f31da2ece4040fe0a12fd44b577afaf\commons-io-2.6.jar
@@ -64,13 +67,19 @@ binary dependencies:
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
-   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-catalyst_2.11\2.3.0\89b1654b97bfe35e466e7511fd5b11033c2bbbd9\spark-catalyst_2.11-2.3.0.jar
-   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-core_2.11\2.3.0\9e2bc021bd38b06da2e0a56fdd9d13935503d94\spark-core_2.11-2.3.0.jar
-   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-sql_2.11\2.3.0\e19282137294c8a889917c05006931fbcd8d66d2\spark-sql_2.11-2.3.0.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-catalyst_2.11\2.4.5\1f05212e4214d64a4810488f0b74b2bd86fc1245\spark-catalyst_2.11-2.4.5.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-core_2.11\2.4.5\8f658b9b71ad2ea211fa09296ae88645109ea8d8\spark-core_2.11-2.4.5.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-sql_2.11\2.4.5\f5cb7af2983ff36d629c37f19ea30db640714ec2\spark-sql_2.11-2.4.5.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
-   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.8\b74530deeba742ab4f3134de0c2da0edc49ca361\scala-reflect-2.11.8.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.12\2bb23c13c527566d9828107ca4108be2a2c06f01\scala-reflect-2.11.12.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingKafkaJob.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingKafkaJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.kafka\kafka-clients\0.10.0.1\36ebf4044d0e546bf74c95629d736ca63320a323\kafka-clients-0.10.0.1.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingKafkaJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-core_2.11\2.4.5\8f658b9b71ad2ea211fa09296ae88645109ea8d8\spark-core_2.11-2.4.5.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingKafkaJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-streaming-kafka-0-10_2.11\2.3.0\86b65d3d00b3991f06e88b292903ce96ef6c752a\spark-streaming-kafka-0-10_2.11-2.3.0.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingKafkaJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-streaming_2.11\2.3.0\57da1135f7192a2be85987f1708abf94887f7323\spark-streaming_2.11-2.3.0.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingKafkaJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
-   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-sql_2.11\2.3.0\e19282137294c8a889917c05006931fbcd8d66d2\spark-sql_2.11-2.3.0.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-sql_2.11\2.4.5\f5cb7af2983ff36d629c37f19ea30db640714ec2\spark-sql_2.11-2.4.5.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.12\bf5534e6fec3d665bd6419c952a929a8bdd4b591\scala-library-2.11.12.jar
 source dependencies:
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\batch\BatchJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala
@@ -122,5 +131,8 @@ class names:
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> batch.clickstream.StreamingJob$$anonfun$convertTime$1$1
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> batch.clickstream.StreamingJob$$typecreator1$1
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingJob.scala -> batch.clickstream.StreamingJob$$typecreator5$1
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingKafkaJob.scala -> streaming.StreamingKafkaJob
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingKafkaJob.scala -> streaming.StreamingKafkaJob$
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\StreamingKafkaJob.scala -> streaming.StreamingKafkaJob$$anonfun$main$1
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> utils.SparkUtils
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\utils\SparkUtils.scala -> utils.SparkUtils$
