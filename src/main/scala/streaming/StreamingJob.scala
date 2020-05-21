@@ -19,6 +19,7 @@ object StreamingJob {
       .appName("Spark streaming")
       .getOrCreate()
 
+    println(spark.version)
     //set spark log level to only error
     spark.sparkContext.setLogLevel("ERROR")
 

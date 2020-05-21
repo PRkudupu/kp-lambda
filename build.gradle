@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+
     //scala
     compile 'org.scala-lang:scala-library:2.12.0'
 
@@ -25,9 +26,7 @@ dependencies {
     //kafka
     compile group: 'org.apache.kafka', name: 'kafka-clients', version: '2.5.0'
     compile 'org.apache.kafka:kafka_2.12:2.5.0'
-
-
-
+    compile 'org.apache.spark:spark-sql-kafka-0-10_2.12:2.4.5'
 }
 configurations {
 
