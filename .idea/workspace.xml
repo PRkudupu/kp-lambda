@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="522895c8-e6d4-4af1-94f2-65e0804b2aa8" name="Default Changelist" comment="">
+    <list default="true" id="c2f0d7fd-0a75-4168-9d4f-f939f0aa6e66" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.mapping" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.mapping" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +72,8 @@
       <recent name="C:\Sephora\dp-ingestion\deploy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="streaming" />
-      <recent name="clickstream" />
       <recent name="batch" />
+      <recent name="clickstream" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming" />
@@ -76,13 +83,39 @@
       <recent name="C:\Sephora\dp-ingestion\src\main\scala\clickstream" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KafkaStreamingJob">
-    <configuration name="KafkaStreamingJob" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="streaming.KafkaStreamingJob" />
-      <module name="bigdata.main" />
+  <component name="RunManager" selected="Application.LogProducerBatch">
+    <configuration name="BatchJob" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="batch.BatchJob" />
+      <module name="dp-ingestion.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streaming.*" />
+          <option name="PATTERN" value="batch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ingest (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="clickstream.Ingest" />
+      <module name="dp-ingestion.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clickstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogProducer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="clickstream.LogProducer" />
+      <module name="dp-ingestion.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clickstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,7 +125,7 @@
     </configuration>
     <configuration name="LogProducerBatch" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="clickstream.LogProducerBatch" />
-      <module name="bigdata.main" />
+      <module name="dp-ingestion.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="clickstream.*" />
@@ -103,52 +136,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogProducerKafkaProducer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="clickstream.LogProducerKafkaProducer" />
-      <module name="bigdata.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="clickstream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogProducerStreaming" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="clickstream.LogProducerStreaming" />
-      <module name="bigdata.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="clickstream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamingJob" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="batch.clickstream.StreamingJob" />
-      <module name="bigdata.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="batch.clickstream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="dp-ingestion" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LogProducerKafkaProducer" />
-        <item itemvalue="Application.LogProducerStreaming" />
         <item itemvalue="Application.LogProducerBatch" />
-        <item itemvalue="Application.KafkaStreamingJob" />
-        <item itemvalue="Application.StreamingJob" />
+        <item itemvalue="Gradle.dp-ingestion" />
+        <item itemvalue="Application.BatchJob" />
+        <item itemvalue="Application.LogProducer" />
+        <item itemvalue="Application.Ingest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +180,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="522895c8-e6d4-4af1-94f2-65e0804b2aa8" name="Default Changelist" comment="" />
+      <changelist id="c2f0d7fd-0a75-4168-9d4f-f939f0aa6e66" name="Default Changelist" comment="" />
       <created>1576092379840</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -189,17 +200,7 @@
       <workItem from="1589452834749" duration="1738000" />
       <workItem from="1589454709086" duration="4410000" />
       <workItem from="1589459206144" duration="1713000" />
-      <workItem from="1589480923154" duration="6790000" />
-      <workItem from="1589489080856" duration="451000" />
-      <workItem from="1589489822657" duration="949000" />
-      <workItem from="1589603243892" duration="7249000" />
-      <workItem from="1589696023706" duration="2114000" />
-      <workItem from="1589781452458" duration="10119000" />
-      <workItem from="1589825738194" duration="5690000" />
-      <workItem from="1589930408577" duration="25935000" />
-      <workItem from="1590037241907" duration="8330000" />
-      <workItem from="1590047059772" duration="3988000" />
-      <workItem from="1590078318786" duration="598000" />
+      <workItem from="1590085053786" duration="488000" />
     </task>
     <servers />
   </component>
@@ -207,75 +208,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="677" y="178" key="#BatchJob" timestamp="1589489295572">
+    <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589459805231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="677" y="178" key="#BatchJob/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589489295572" />
-    <state x="677" y="178" key="#LogProducer" timestamp="1589614130034">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="677" y="178" key="#LogProducer/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589614130034" />
-    <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1590003770513">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590003770513" />
+    <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589459805231" />
     <state x="690" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589458354404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589458354404" />
-    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589489123821">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589489123821" />
-    <state x="921" y="345" key="FileChooserDialogImpl" timestamp="1590049039469">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-185" y="1356" key="FileChooserDialogImpl" timestamp="1589239048636">
+      <screen x="-922" y="1080" width="1536" height="832" />
     </state>
     <state x="-185" y="1356" key="FileChooserDialogImpl/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-922.1080.1536.832" timestamp="1589239048636" />
-    <state x="921" y="345" key="FileChooserDialogImpl/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590049039469" />
-    <state width="1877" height="349" key="GridCell.Tab.0.bottom" timestamp="1590050956205">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1589460896968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589483802437" />
-    <state width="1877" height="349" key="GridCell.Tab.0.bottom/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590050956205" />
-    <state width="1877" height="349" key="GridCell.Tab.0.center" timestamp="1590050956205">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589460896968" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1589460896968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.center/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589483802437" />
-    <state width="1877" height="349" key="GridCell.Tab.0.center/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590050956205" />
-    <state width="1877" height="349" key="GridCell.Tab.0.left" timestamp="1590050956205">
+    <state width="1877" height="287" key="GridCell.Tab.0.center/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589460896968" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1589460896967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.left/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589483802436" />
-    <state width="1877" height="349" key="GridCell.Tab.0.left/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590050956205" />
-    <state width="1877" height="349" key="GridCell.Tab.0.right" timestamp="1590050956205">
+    <state width="1877" height="287" key="GridCell.Tab.0.left/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589460896967" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1589460896968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.right/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589483802437" />
-    <state width="1877" height="349" key="GridCell.Tab.0.right/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590050956205" />
-    <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1590006137339">
+    <state width="1877" height="287" key="GridCell.Tab.0.right/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589460896968" />
+    <state width="1892" height="353" key="GridCell.Tab.1.bottom" timestamp="1589459133390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.bottom/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590006137339" />
-    <state width="1877" height="346" key="GridCell.Tab.1.center" timestamp="1590006137338">
+    <state width="1892" height="353" key="GridCell.Tab.1.bottom/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589459133390" />
+    <state width="1892" height="353" key="GridCell.Tab.1.center" timestamp="1589459133390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.center/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590006137338" />
-    <state width="1877" height="346" key="GridCell.Tab.1.left" timestamp="1590006137338">
+    <state width="1892" height="353" key="GridCell.Tab.1.center/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589459133390" />
+    <state width="1892" height="353" key="GridCell.Tab.1.left" timestamp="1589459133390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.left/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590006137338" />
-    <state width="1877" height="346" key="GridCell.Tab.1.right" timestamp="1590006137339">
+    <state width="1892" height="353" key="GridCell.Tab.1.left/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589459133390" />
+    <state width="1892" height="353" key="GridCell.Tab.1.right" timestamp="1589459133390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.right/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590006137339" />
-    <state x="816" y="431" key="com.intellij.ide.util.TipDialog" timestamp="1590037241612">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1892" height="353" key="GridCell.Tab.1.right/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589459133390" />
+    <state x="-269" y="1425" key="com.intellij.ide.util.TipDialog" timestamp="1589239028639">
+      <screen x="-922" y="1080" width="1536" height="832" />
     </state>
     <state x="-269" y="1425" key="com.intellij.ide.util.TipDialog/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-922.1080.1536.832" timestamp="1589239028639" />
-    <state x="816" y="431" key="com.intellij.ide.util.TipDialog/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590037241612" />
-    <state x="656" y="257" width="607" height="526" key="find.popup" timestamp="1589485584243">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="257" width="607" height="526" key="find.popup/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589485584243" />
   </component>
 </project>
