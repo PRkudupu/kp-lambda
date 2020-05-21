@@ -11,20 +11,22 @@ repositories {
 
 dependencies {
     //scala
-    compile 'org.scala-lang:scala-library:2.11.12'
+    compile 'org.scala-lang:scala-library:2.12.0'
 
     //spark
-    compile 'org.apache.spark:spark-core_2.11:2.4.5'
-    compile 'org.apache.spark:spark-sql_2.11:2.4.5'
+    compile 'org.apache.spark:spark-core_2.12:2.4.5'
+    compile 'org.apache.spark:spark-sql_2.12:2.4.5'
 
     //configuration files for jvm libraries using HOCON files.
     compile 'com.typesafe:config:1.4.0'
     //provide file utils for helper functions
     compile group: 'commons-io', name: 'commons-io', version: '2.6'
-    compile group: 'org.apache.kafka', name: 'kafka-clients', version: '0.8.2.1'
-    compile 'org.apache.kafka:kafka_2.11:0.8.2.1'
-    compile 'org.apache.spark:spark-streaming-kafka-0-10_2.11:2.3.0'
-    compile 'org.apache.spark:spark-streaming_2.11:2.3.0'
+
+    //kafka
+    compile group: 'org.apache.kafka', name: 'kafka-clients', version: '2.5.0'
+    compile 'org.apache.kafka:kafka_2.12:2.5.0'
+
+
 
 }
 configurations {

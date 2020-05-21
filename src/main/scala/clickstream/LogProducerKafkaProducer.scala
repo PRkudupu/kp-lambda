@@ -29,6 +29,7 @@ object LogProducerKafkaProducer extends App {
   props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer")
   props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, "org.apache.kafka.common.serialization.StringSerializer")
   props.put(ProducerConfig.ACKS_CONFIG, "all")
+
   //client config
   props.put(ProducerConfig.CLIENT_ID_CONFIG, "WebLogProducer")
 

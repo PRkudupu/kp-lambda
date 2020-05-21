@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="522895c8-e6d4-4af1-94f2-65e0804b2aa8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/streaming/KafkaStreamingJob.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -9,20 +10,60 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/BatchJob$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/BatchJob$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/BatchJob$$typecreator5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/BatchJob$$typecreator5$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/BatchJob$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/BatchJob$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerKafkaProducer$$anonfun$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerKafkaProducer$$anonfun$1$$anonfun$apply$mcVI$sp$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerKafkaProducer$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerKafkaProducer$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/BatchJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/BatchJob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$anonfun$convertTime$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$typecreator1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$typecreator1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$typecreator5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$$typecreator5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/batch/clickstream/StreamingJob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerBatch$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerBatch$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerBatch$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerBatch$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerBatch$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerBatch$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerBatch$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerBatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerBatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerKafkaProducer$$anonfun$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerKafkaProducer$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerKafkaProducer$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerKafkaProducer$$anonfun$3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerKafkaProducer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerKafkaProducer$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerKafkaProducer$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerKafkaProducer$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerKafkaProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerKafkaProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$$anonfun$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/clickstream/LogProducerStreaming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/config/Settings$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/config/Settings$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/config/Settings$WebLogGen$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/config/Settings$WebLogGen$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/config/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/config/Settings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/domain/package$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/domain/package$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/scala/main/domain/package$Activity$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/domain/package$Activity$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/domain/package$Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/domain/package$Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/domain/package$ActivityByProduct$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/domain/package$ActivityByProduct$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/domain/package$ActivityByProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/domain/package$ActivityByProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/domain/package$ActivityStreams$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/domain/package$ActivityStreams$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/domain/package$ActivityStreams.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/domain/package$ActivityStreams.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/scala/main/domain/package.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/domain/package.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/streaming/StreamingKafkaJob$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/streaming/StreamingKafkaJob$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/streaming/StreamingKafkaJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/utils/SparkUtils$.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/utils/SparkUtils$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/utils/SparkUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/scala/main/utils/SparkUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/bigdata-kp-lambda.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/bigdata-kp-lambda.1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/kfka_streams.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kfka_streams.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/terminology.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/terminology.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/batch/BatchJob.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/batch/BatchJob.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/streaming/StreamingJob.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/streaming/StreamingJob.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/streaming/StreamingKafkaJob.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/streaming/StreamingKafkaJob.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/~WRL0003.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/clickstream/LogProducerKafkaProducer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/clickstream/LogProducerKafkaProducer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/streaming/StreamingKafkaJob.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,15 +117,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Scala" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Sephora\dp-ingestion\src\main\resources" />
-      <recent name="C:\Sephora\dp-ingestion\deploy" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="streaming" />
-      <recent name="clickstream" />
-      <recent name="batch" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming" />
       <recent name="C:\Users\Prath\Desktop\Projects\kp-lambda\docs" />
@@ -92,8 +124,17 @@
       <recent name="C:\Sephora\dp-ingestion\src\main\resources" />
       <recent name="C:\Sephora\dp-ingestion\src\main\scala\clickstream" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="streaming" />
+      <recent name="clickstream" />
+      <recent name="batch" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Sephora\dp-ingestion\src\main\resources" />
+      <recent name="C:\Sephora\dp-ingestion\deploy" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.StreamingJob">
+  <component name="RunManager" selected="Application.BatchJob">
     <configuration name="BatchJob" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="batch.clickstream.BatchJob" />
       <module name="bigdata.main" />
@@ -107,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogProducerKafkaProducer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="clickstream.LogProducerKafkaProducer" />
+    <configuration name="KafkaStreamingJob" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="streaming.KafkaStreamingJob" />
       <module name="bigdata.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="clickstream.*" />
+          <option name="PATTERN" value="streaming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,8 +161,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogProducerStreaming" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="clickstream.LogProducerStreaming" />
+    <configuration name="LogProducerBatch" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="clickstream.LogProducerBatch" />
       <module name="bigdata.main" />
       <extension name="coverage">
         <pattern>
@@ -161,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LogProducerBatch" />
+        <item itemvalue="Application.KafkaStreamingJob" />
         <item itemvalue="Application.StreamingJob" />
         <item itemvalue="Application.BatchJob" />
         <item itemvalue="Application.StreamingKafkaJob" />
-        <item itemvalue="Application.LogProducerKafkaProducer" />
-        <item itemvalue="Application.LogProducerStreaming" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +254,8 @@
       <workItem from="1589696023706" duration="2114000" />
       <workItem from="1589781452458" duration="10119000" />
       <workItem from="1589825738194" duration="5690000" />
-      <workItem from="1589930408577" duration="22436000" />
+      <workItem from="1589930408577" duration="25935000" />
+      <workItem from="1590037241907" duration="6933000" />
     </task>
     <servers />
   </component>
@@ -246,26 +288,26 @@
     </state>
     <state x="-185" y="1356" key="FileChooserDialogImpl/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-922.1080.1536.832" timestamp="1589239048636" />
     <state x="921" y="345" key="FileChooserDialogImpl/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589826354129" />
-    <state width="1877" height="270" key="GridCell.Tab.0.bottom" timestamp="1590031191758">
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1590045466002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.bottom/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589483802437" />
-    <state width="1877" height="270" key="GridCell.Tab.0.bottom/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590031191758" />
-    <state width="1877" height="270" key="GridCell.Tab.0.center" timestamp="1590031191758">
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590045466002" />
+    <state width="1877" height="338" key="GridCell.Tab.0.center" timestamp="1590045466002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.center/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589483802437" />
-    <state width="1877" height="270" key="GridCell.Tab.0.center/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590031191758" />
-    <state width="1877" height="270" key="GridCell.Tab.0.left" timestamp="1590031191757">
+    <state width="1877" height="338" key="GridCell.Tab.0.center/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590045466002" />
+    <state width="1877" height="338" key="GridCell.Tab.0.left" timestamp="1590045466002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.left/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589483802436" />
-    <state width="1877" height="270" key="GridCell.Tab.0.left/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590031191757" />
-    <state width="1877" height="270" key="GridCell.Tab.0.right" timestamp="1590031191758">
+    <state width="1877" height="338" key="GridCell.Tab.0.left/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590045466002" />
+    <state width="1877" height="338" key="GridCell.Tab.0.right" timestamp="1590045466002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.right/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589483802437" />
-    <state width="1877" height="270" key="GridCell.Tab.0.right/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590031191758" />
+    <state width="1877" height="338" key="GridCell.Tab.0.right/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590045466002" />
     <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1590006137339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -282,11 +324,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="346" key="GridCell.Tab.1.right/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590006137339" />
-    <state x="816" y="431" key="com.intellij.ide.util.TipDialog" timestamp="1589825944191">
+    <state x="816" y="431" key="com.intellij.ide.util.TipDialog" timestamp="1590037241612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-269" y="1425" key="com.intellij.ide.util.TipDialog/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-922.1080.1536.832" timestamp="1589239028639" />
-    <state x="816" y="431" key="com.intellij.ide.util.TipDialog/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589825944191" />
+    <state x="816" y="431" key="com.intellij.ide.util.TipDialog/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590037241612" />
     <state x="656" y="257" width="607" height="526" key="find.popup" timestamp="1589485584243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
