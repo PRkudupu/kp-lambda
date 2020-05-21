@@ -34,6 +34,7 @@ object LogProducerKafkaProducer extends App {
   props.put(ProducerConfig.CLIENT_ID_CONFIG, "WebLogProducer")
 
   //kafka producer takes 2 types.key, value
+  //The key value would be null
   val kafkaProducer: Producer[Nothing, String] = new KafkaProducer[Nothing, String](props)
 
   println(kafkaProducer.partitionsFor(topic))

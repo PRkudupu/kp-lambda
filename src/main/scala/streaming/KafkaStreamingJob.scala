@@ -26,7 +26,11 @@ object KafkaStreamingJob {
         .option("subscribe", "weblogs-text")
         .load()
 
-    df.writeStream
+    //Here we are only fetching values not keys.
+    //Kafka producer has written to the topic with key as null value
+   val output= df.selectExpr( "CAST(value AS STRING)")
+
+    output.writeStream
       .outputMode("update")
       .format("console")
       .start()
