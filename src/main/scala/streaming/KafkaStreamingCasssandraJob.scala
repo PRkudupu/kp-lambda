@@ -1,6 +1,5 @@
-package streaming
-
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql._
+import org.apache.spark.sql.cassandra._
 
 object KafkaStreamingCasssandraJob {
   def main(args: Array[String]): Unit = {
@@ -32,7 +31,6 @@ object KafkaStreamingCasssandraJob {
 
     //records
     import org.apache.spark.sql.functions.split
-
     import spark.implicits._
 
     val streamDF=output.withColumn("value", split($"value", "\\t"))
@@ -63,22 +61,22 @@ object KafkaStreamingCasssandraJob {
                                                         group by product, timestamp_hour
                                                    """)
 
-     activityByProduct.writeStream
+     /*activityByProduct.writeStream
       .outputMode("update")
       .format("console")
       .start()
-      .awaitTermination()
+      .awaitTermination()*/
 
-   /* output.writeStream
+    activityByProduct.writeStream
         .foreachBatch{ (batchDF: DataFrame, batchId: Long) =>
          batchDF.write       // Use Cassandra batch data source to write streaming out
-            .cassandraFormat("my_table", "test")
+            .cassandraFormat("stream_activity_by_product", "lambda")
             .option("cluster", "Test Cluster")
             .mode("append")
             .save()
         }
       .outputMode("update")
       .start()
-      .awaitTermination()*/
+      .awaitTermination()
   }
 }

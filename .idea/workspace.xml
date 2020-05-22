@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f0d7fd-0a75-4168-9d4f-f939f0aa6e66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/streaming/sampleCassandra.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/streaming/KafkaStreamingCasssandraJob$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/scala/main/streaming/KafkaStreamingCasssandraJob.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/kfka_streams.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kfka_streams.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/streaming/KafkaStreamingCassandraJob.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/streaming/KafkaStreamingCasssandraJob.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/streaming/KafkaStreamingCasssandraJob.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/streaming/KafkaStreamingCasssandraJob.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,22 +86,16 @@
       <recent name="C:\Sephora\dp-ingestion\deploy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LogProducerKafkaProducer">
-    <configuration name="KafkaStreamingCasssandraJob" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="streaming.KafkaStreamingCasssandraJob" />
+  <component name="RunManager" selected="Application.KafkaStreamingCasssandraJob (1)">
+    <configuration name="KafkaStreamingCasssandraJob (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="KafkaStreamingCasssandraJob" />
       <module name="bigdata.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streaming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafkaStreamingJob" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="streaming.KafkaStreamingJob" />
+    <configuration name="KafkaStreamingCasssandraJob" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="streaming.KafkaStreamingCasssandraJob" />
       <module name="bigdata.main" />
       <extension name="coverage">
         <pattern>
@@ -155,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KafkaStreamingCasssandraJob (1)" />
         <item itemvalue="Application.LogProducerKafkaProducer" />
         <item itemvalue="Application.LogProducerStreaming" />
         <item itemvalue="Application.KafkaStreamingCasssandraJob" />
         <item itemvalue="Application.StreamingJob" />
-        <item itemvalue="Application.KafkaStreamingJob" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +194,7 @@
       <workItem from="1589454709086" duration="4410000" />
       <workItem from="1589459206144" duration="1713000" />
       <workItem from="1590085053786" duration="488000" />
-      <workItem from="1590093298396" duration="14639000" />
+      <workItem from="1590093298396" duration="16367000" />
     </task>
     <servers />
   </component>
@@ -221,22 +214,22 @@
       <screen x="-922" y="1080" width="1536" height="832" />
     </state>
     <state x="-185" y="1356" key="FileChooserDialogImpl/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@-922.1080.1536.832" timestamp="1589239048636" />
-    <state width="1877" height="301" key="GridCell.Tab.0.bottom" timestamp="1590121322380">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1590130632524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.bottom/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590121322380" />
-    <state width="1877" height="301" key="GridCell.Tab.0.center" timestamp="1590121322379">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590130632524" />
+    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1590130632524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.center/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590121322379" />
-    <state width="1877" height="301" key="GridCell.Tab.0.left" timestamp="1590121322379">
+    <state width="1877" height="341" key="GridCell.Tab.0.center/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590130632524" />
+    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1590130632524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.left/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590121322379" />
-    <state width="1877" height="301" key="GridCell.Tab.0.right" timestamp="1590121322380">
+    <state width="1877" height="341" key="GridCell.Tab.0.left/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590130632524" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1590130632524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="301" key="GridCell.Tab.0.right/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590121322380" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right/-922.1080.1536.832/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590130632524" />
     <state width="1892" height="353" key="GridCell.Tab.1.bottom" timestamp="1589459133390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -22,8 +22,8 @@ products:
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\domain\package$ActivityStreams$.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\domain\package$ActivityStreams.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\domain\package.class
-   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingCasssandraJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\streaming\KafkaStreamingCasssandraJob$.class
-   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingCasssandraJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\streaming\KafkaStreamingCasssandraJob.class
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingCasssandraJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\KafkaStreamingCasssandraJob$.class
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingCasssandraJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\KafkaStreamingCasssandraJob.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\streaming\KafkaStreamingJob$.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingJob.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\streaming\KafkaStreamingJob.class
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\sampleCassandra.scala -> C:\Users\Prath\Desktop\Projects\kp-lambda\build\classes\scala\main\streaming\sampleCassandra$.class
@@ -55,6 +55,7 @@ binary dependencies:
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.12.10\3509860bc2e5b3da001ed45aca94ffbe5694dbda\scala-library-2.12.10.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingCasssandraJob.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingCasssandraJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\com.datastax.spark\spark-cassandra-connector_2.12\2.4.3\202bc5b92cb6127f83391fe69a2597f7a0f940ad\spark-cassandra-connector_2.12-2.4.3.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingCasssandraJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-catalyst_2.12\2.4.5\c8372ee35ebc5a2c9019f02746412ff4ac481ac0\spark-catalyst_2.12-2.4.5.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingCasssandraJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-core_2.12\2.4.5\c08ddafed853e729b7db5ec9ff5725d2b6615ba2\spark-core_2.12-2.4.5.jar
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingCasssandraJob.scala -> C:\Users\Prath\.gradle\caches\modules-2\files-2.1\org.apache.spark\spark-sql_2.12\2.4.5\60b5466b07b4858119ccf4a7eda17f8bdb1d84fe\spark-sql_2.12-2.4.5.jar
@@ -110,8 +111,8 @@ class names:
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> domain.package$ActivityByProduct$
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> domain.package$ActivityStreams
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\domain\package.scala -> domain.package$ActivityStreams$
-   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingCasssandraJob.scala -> streaming.KafkaStreamingCasssandraJob
-   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingCasssandraJob.scala -> streaming.KafkaStreamingCasssandraJob$
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingCasssandraJob.scala -> KafkaStreamingCasssandraJob
+   C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingCasssandraJob.scala -> KafkaStreamingCasssandraJob$
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingJob.scala -> streaming.KafkaStreamingJob
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\KafkaStreamingJob.scala -> streaming.KafkaStreamingJob$
    C:\Users\Prath\Desktop\Projects\kp-lambda\src\main\scala\streaming\sampleCassandra.scala -> streaming.sampleCassandra
