@@ -33,9 +33,9 @@ dependencies {
     compile 'com.datastax.spark:spark-cassandra-connector_2.12:2.4.3'
 
     //avro
-    compile group: 'com.twitter', name: 'chill-avro_2.12', version: '0.9.5'
-    compile group: 'com.twitter', name: 'chill_2.12', version: '0.9.5'
-    compile group: 'com.twitter', name: 'algebird-core_2.13', version: '0.13.6'
+    //compile group: 'com.twitter', name: 'chill-avro_2.12', version: '0.9.5'
+    //compile group: 'com.twitter', name: 'chill_2.12', version: '0.9.5'
+    //compile group: 'com.twitter', name: 'algebird-core_2.13', version: '0.13.6'
 }
 configurations {
 
